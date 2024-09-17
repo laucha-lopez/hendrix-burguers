@@ -269,65 +269,51 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         // Llama a la función añadirAlCarrito con los parámetros obtenidos.
     });
 });
-function mostrarUbicacion(position) {
-    const lat = position.coords.latitude;
-    const lng = position.coords.longitude;
-    mapsLink = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
-    //document.getElementById('maps-link').innerHTML = `<a href="${mapsLink}" target="_blank">Ver en Google Maps</a>`;
-}
 
-function mostrarError(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            alert("El usuario negó la solicitud de Geolocalización.");
-            break;
-        case error.POSITION_UNAVAILABLE:
-            alert("La información de ubicación no está disponible.");
-            break;
-        case error.TIMEOUT:
-            alert("La solicitud para obtener la ubicación ha expirado.");
-            break;
-        case error.UNKNOWN_ERROR:
-            alert("Se produjo un error desconocido.");
-            break;
+function generarLink() {
+    const ubicacion = document.getElementById('ubicacion').value;
+    if (ubicacion) {
+        const encodedUbicacion = encodeURIComponent(ubicacion);
+        mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodedUbicacion}`;
+        document.getElementById('maps-link').innerHTML = `<a href="${mapsLink}" target="_blank">Ver en Google Maps</a>`;
+        return true
+    } else {
+        alert("Por favor, introduce una ubicación.");
+        return false
     }
 }
 // Función para realizar el pedido final
 function hacerPedido() {
-    let mensaje = "Hola, quiero pedir:\n"; 
-    // Inicializa el mensaje que se enviará por WhatsApp.
-    if(carrito.length === 0){
-        alert("El carrito está vacio, no podes pedir nada"); 
-        // Muestra una alerta si el carrito está vacío.
-    } else {
-        carrito.forEach(item => {
-            // Itera sobre cada ítem en el carrito.
-            if (item.tipo === "individual") {
-                mensaje += `Una hamburguesa: ${item.nombre} (${item.tamaño})\n`; 
-                // Añade la información de una hamburguesa individual al mensaje.
-            } else if (item.tipo === "promo") {
-                mensaje += ` Una promo doble con: ${item.nombre.join(' y ')} (${item.tamaño})\n`; 
-                // Añade la información de una promoción doble al mensaje.
-            }
-        });
-        mensaje += ` Precio total: ${precio}\n`;
-        mensaje += ` Ubicacion: ${mapsLink}\n`;
-    
-        // Link de WhatsApp con el mensaje generado
-        let urlWhatsApp = `https://api.whatsapp.com/send?phone=542644806290&text=${encodeURIComponent(mensaje)}`; 
-        // Crea un URL para enviar el mensaje por WhatsApp con el contenido del mensaje.
-        window.open(urlWhatsApp); 
-        // Abre una nueva ventana con el link de WhatsApp.
-        carrito = [] 
-        precio = 0
-        // Limpia el carrito después de enviar el pedido.
+    if(generarLink()){
+        let mensaje = "Hola, quiero pedir:\n"; 
+        // Inicializa el mensaje que se enviará por WhatsApp.
+        if(carrito.length === 0){
+            alert("El carrito está vacio, no podes pedir nada"); 
+            // Muestra una alerta si el carrito está vacío.
+        } else {
+            carrito.forEach(item => {
+                // Itera sobre cada ítem en el carrito.
+                if (item.tipo === "individual") {
+                    mensaje += `Una hamburguesa: ${item.nombre} (${item.tamaño})\n`; 
+                    // Añade la información de una hamburguesa individual al mensaje.
+                } else if (item.tipo === "promo") {
+                    mensaje += ` Una promo doble con: ${item.nombre.join(' y ')} (${item.tamaño})\n`; 
+                    // Añade la información de una promoción doble al mensaje.
+                }
+            });
+            mensaje += ` Precio total: ${precio}\n`;
+            mensaje += ` Ubicacion: ${mapsLink}\n`;
+        
+            // Link de WhatsApp con el mensaje generado
+            let urlWhatsApp = `https://api.whatsapp.com/send?phone=542644806290&text=${encodeURIComponent(mensaje)}`; 
+            // Crea un URL para enviar el mensaje por WhatsApp con el contenido del mensaje.
+            window.open(urlWhatsApp); 
+            // Abre una nueva ventana con el link de WhatsApp.
+            carrito = [] 
+            precio = 0
+            // Limpia el carrito después de enviar el pedido.
+    }
+    }else{
+        return;
     }
 }
-function obtenerUbicacion() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(mostrarUbicacion, mostrarError);
-    } else {
-        alert("La geolocalización no es compatible con este navegador.");
-    }
-}
-
