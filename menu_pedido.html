@@ -79,7 +79,7 @@
 <div class="container mt-4">
     <div class="d-flex align-items-center">
         <!-- Checkboxes -->
-        <div class="me-3">
+        <div class="mb-3">
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="individualPromo" name="promoType" value="individual">
                 <label class="form-check-label" for="individualPromo">Promo Individual</label>
@@ -98,11 +98,14 @@
             <option value="magnum">Magnum</option>
         </select>
         <button onclick="hacerPedido()" class="btn btn-outline-primary disable" style="font-size: 30px; margin-left: 10px;">Pedir</button>
-        <button onclick="obtenerUbicacion()" class="btn btn-outline-primary disable" style="font-size: 30px; margin-left: 10px;">Obtener ubicación</button>
-        <p id="maps-link"></p>
       </div>
 </div>
-
+<div class="mb-3 text-center">
+  <p style="color: white;">Introduce tu ubicación</p>
+  <input type="text" id="ubicacion" placeholder="Escribe tu dirección">
+  <button onclick="generarLink()" class="btn btn-outline-primary disable" style="font-size: 20px; margin-left: 10px;">Generar enlace a Maps</button>
+  <p id="maps-link"></p>
+</div>
   <!-- Sección para mostrar hamburguesas -->
   <h2 class="mb-4 text-center stylish-text-neon " style="font-size: 30px;">Elige tus Hamburguesas</h2>
   <div class="container mt-4">
