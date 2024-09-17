@@ -311,6 +311,7 @@ function hacerPedido() {
             // Abre una nueva ventana con el link de WhatsApp.
             carrito = [] 
             precio = 0
+            mapsLink = ""
             // Limpia el carrito después de enviar el pedido.
     }
     }else{
