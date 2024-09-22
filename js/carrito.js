@@ -1,1 +1,391 @@
-const _0x1190a3=_0x19e0;(function(_0x246f9f,_0x9134df){const _0x5acee7=_0x19e0,_0x3d3244=_0x246f9f();while(!![]){try{const _0x1df5eb=-parseInt(_0x5acee7(0x27c))/(0x2d4*-0xb+0x4*-0x7d4+0x3e6d)*(parseInt(_0x5acee7(0x229))/(0x16*-0xdf+0x11*0x1c1+0x221*-0x5))+parseInt(_0x5acee7(0x2af))/(0x713*-0x5+0x65*-0x1+0x23c7)+parseInt(_0x5acee7(0x18b))/(-0x1087*-0x1+0x1cba+-0x2d3d)+-parseInt(_0x5acee7(0x237))/(-0x1*-0x25be+-0x25*-0x66+0x16b*-0x25)+parseInt(_0x5acee7(0x1a3))/(0x25+-0x359+0x1*0x33a)+-parseInt(_0x5acee7(0x1e8))/(0x1489+-0x1c77+0x7f5)*(-parseInt(_0x5acee7(0x267))/(0x1760+-0x2fc+-0x145c))+parseInt(_0x5acee7(0x1c6))/(-0x196f+0x1d7+0x17a1)*(-parseInt(_0x5acee7(0x2c6))/(0x240+0x1eab+-0x20e1));if(_0x1df5eb===_0x9134df)break;else _0x3d3244['push'](_0x3d3244['shift']());}catch(_0x5a979c){_0x3d3244['push'](_0x3d3244['shift']());}}}(_0x3c50,0x2*-0x40755+0x74965+0x4db4b));const burgers=[{'name':_0x1190a3(0x2a5)+_0x1190a3(0x1e7),'ingredientes':_0x1190a3(0x2c4)+_0x1190a3(0x2bc)+_0x1190a3(0x20c)+_0x1190a3(0x232)+_0x1190a3(0x289)+_0x1190a3(0x24b)+_0x1190a3(0x226)+_0x1190a3(0x1bd),'imgSrc':_0x1190a3(0x195)+_0x1190a3(0x25f),'promo':'si'},{'name':_0x1190a3(0x192)+_0x1190a3(0x23a),'ingredientes':_0x1190a3(0x2b7)+_0x1190a3(0x1ea)+_0x1190a3(0x29b)+_0x1190a3(0x292)+_0x1190a3(0x2ba)+_0x1190a3(0x28e)+_0x1190a3(0x1ed),'imgSrc':_0x1190a3(0x187)+_0x1190a3(0x1e9),'promo':'si'},{'name':_0x1190a3(0x291)+_0x1190a3(0x286),'ingredientes':_0x1190a3(0x1ac)+_0x1190a3(0x24f)+_0x1190a3(0x234)+_0x1190a3(0x244),'imgSrc':_0x1190a3(0x1b6)+_0x1190a3(0x263),'promo':'si'},{'name':_0x1190a3(0x206)+_0x1190a3(0x2a1),'ingredientes':_0x1190a3(0x2b7)+_0x1190a3(0x1ae)+_0x1190a3(0x26a)+_0x1190a3(0x1ca)+_0x1190a3(0x189)+_0x1190a3(0x213),'imgSrc':_0x1190a3(0x1f0)+_0x1190a3(0x22e)+'pg','promo':'si'},{'name':_0x1190a3(0x1d7)+'PO','ingredientes':_0x1190a3(0x18d)+_0x1190a3(0x2bc)+_0x1190a3(0x207)+_0x1190a3(0x194)+_0x1190a3(0x29d)+_0x1190a3(0x244),'imgSrc':_0x1190a3(0x22a)+_0x1190a3(0x263),'promo':'si'},{'name':_0x1190a3(0x197)+_0x1190a3(0x281),'ingredientes':_0x1190a3(0x1fb)+_0x1190a3(0x24d)+_0x1190a3(0x25a),'imgSrc':_0x1190a3(0x2b8)+_0x1190a3(0x2b1),'promo':'si'},{'name':_0x1190a3(0x211)+_0x1190a3(0x294),'ingredientes':_0x1190a3(0x2b7)+_0x1190a3(0x271)+_0x1190a3(0x1dd)+_0x1190a3(0x236)+_0x1190a3(0x24e)+_0x1190a3(0x264)+_0x1190a3(0x21d)+_0x1190a3(0x20f)+_0x1190a3(0x2b0)+'s.','imgSrc':_0x1190a3(0x1e2)+_0x1190a3(0x22f),'promo':'no'},{'name':_0x1190a3(0x214),'ingredientes':_0x1190a3(0x2a6)+_0x1190a3(0x1d0)+_0x1190a3(0x205)+_0x1190a3(0x290)+_0x1190a3(0x296)+_0x1190a3(0x2a9)+_0x1190a3(0x1ec)+'.','imgSrc':_0x1190a3(0x20d)+_0x1190a3(0x222),'promo':'no'},{'name':_0x1190a3(0x1a1)+_0x1190a3(0x188),'ingredientes':_0x1190a3(0x21b)+_0x1190a3(0x196)+_0x1190a3(0x287)+_0x1190a3(0x19c)+_0x1190a3(0x2c0)+_0x1190a3(0x1a9)+_0x1190a3(0x220)+_0x1190a3(0x2c8)+_0x1190a3(0x285)+_0x1190a3(0x1fd),'imgSrc':_0x1190a3(0x246)+'pg','promo':'no'},{'name':_0x1190a3(0x2a2)+_0x1190a3(0x245),'ingredientes':_0x1190a3(0x1e6)+_0x1190a3(0x272)+_0x1190a3(0x205)+_0x1190a3(0x1b2)+_0x1190a3(0x250)+_0x1190a3(0x181)+_0x1190a3(0x1b4)+_0x1190a3(0x248)+'a.','imgSrc':_0x1190a3(0x202)+_0x1190a3(0x1c1),'promo':'no'}];let promoState=_0x1190a3(0x1e5),carrito=[],exito=!![],precio=0x2*0x1039+0x796+-0x2808,mapsLink,ubi;function _0x19e0(_0x14a7e2,_0x1957aa){const _0x5817a4=_0x3c50();return _0x19e0=function(_0x2ce8e7,_0x3f0a7a){_0x2ce8e7=_0x2ce8e7-(-0x25*-0x97+-0x5*0x751+0x1041);let _0x2f3e7a=_0x5817a4[_0x2ce8e7];return _0x2f3e7a;},_0x19e0(_0x14a7e2,_0x1957aa);}function mostrarBurgers(){const _0x577f7d=_0x1190a3,_0x5f0e28={'YSIKE':_0x577f7d(0x2a8),'cHCwq':_0x577f7d(0x29f)+_0x577f7d(0x1a0),'SJDkR':_0x577f7d(0x242)+_0x577f7d(0x27f),'pOynT':function(_0x1b937d,_0x2193f8){return _0x1b937d===_0x2193f8;},'PtJsv':_0x577f7d(0x1e5),'fmtGz':function(_0x54518b){return _0x54518b();}},_0x2db4ca=document[_0x577f7d(0x29c)+_0x577f7d(0x1a7)](_0x5f0e28[_0x577f7d(0x18c)]);_0x2db4ca[_0x577f7d(0x259)]='';const _0x49e303=_0x5f0e28[_0x577f7d(0x1b0)](promoState,_0x5f0e28[_0x577f7d(0x1d4)])?burgers:burgers[_0x577f7d(0x1bf)](_0xa98cf0=>_0xa98cf0[_0x577f7d(0x26b)]==='si');_0x49e303[_0x577f7d(0x18a)](_0x4b1ef9=>{const _0x5e7e4d=_0x577f7d,_0x102e7c=document[_0x5e7e4d(0x1cb)+_0x5e7e4d(0x278)](_0x5f0e28[_0x5e7e4d(0x1c2)]);_0x102e7c[_0x5e7e4d(0x2b4)]=_0x5f0e28[_0x5e7e4d(0x1ab)],_0x102e7c[_0x5e7e4d(0x259)]=_0x5e7e4d(0x27e)+_0x5e7e4d(0x1f9)+_0x5e7e4d(0x1f8)+_0x5e7e4d(0x1f7)+_0x5e7e4d(0x1dc)+_0x5e7e4d(0x1c8)+_0x5e7e4d(0x223)+_0x5e7e4d(0x1f5)+_0x4b1ef9[_0x5e7e4d(0x2ce)]+(_0x5e7e4d(0x29a)+_0x5e7e4d(0x268)+_0x5e7e4d(0x1b1))+_0x4b1ef9[_0x5e7e4d(0x2cf)]+(_0x5e7e4d(0x1ad)+_0x5e7e4d(0x1d5)+_0x5e7e4d(0x274)+_0x5e7e4d(0x2cd)+_0x5e7e4d(0x1f7)+_0x5e7e4d(0x239)+_0x5e7e4d(0x238)+_0x5e7e4d(0x182)+_0x5e7e4d(0x2bf)+_0x5e7e4d(0x1c8)+_0x5e7e4d(0x28b)+_0x5e7e4d(0x28c)+_0x5e7e4d(0x1a8)+_0x5e7e4d(0x29e))+_0x4b1ef9[_0x5e7e4d(0x2cf)]+(_0x5e7e4d(0x212)+_0x5e7e4d(0x1c8)+_0x5e7e4d(0x28b)+_0x5e7e4d(0x28c)+_0x5e7e4d(0x243)+_0x5e7e4d(0x21e)+_0x5e7e4d(0x2a4)+_0x5e7e4d(0x183))+_0x4b1ef9[_0x5e7e4d(0x260)+'es']+(_0x5e7e4d(0x212)+_0x5e7e4d(0x1c8)+_0x5e7e4d(0x2b2)+_0x5e7e4d(0x1df)+_0x5e7e4d(0x1d3)+_0x5e7e4d(0x2b9)+_0x5e7e4d(0x270)+_0x5e7e4d(0x210)+_0x5e7e4d(0x28f))+_0x4b1ef9[_0x5e7e4d(0x2cf)]+(_0x5e7e4d(0x1f1)+_0x5e7e4d(0x247))+_0x4b1ef9[_0x5e7e4d(0x26b)]+(_0x5e7e4d(0x191)+_0x5e7e4d(0x1de)+_0x5e7e4d(0x218)+_0x5e7e4d(0x1c8)+_0x5e7e4d(0x198)+_0x5e7e4d(0x225)+_0x5e7e4d(0x25d)+_0x5e7e4d(0x186)),_0x2db4ca[_0x5e7e4d(0x1c0)+'d'](_0x102e7c);}),_0x5f0e28[_0x577f7d(0x266)](agregarEventListeners);}function agregarEventListeners(){const _0x5f257b=_0x1190a3,_0x3f21a7={'nZwGf':_0x5f257b(0x215)+'r','ZLDGj':_0x5f257b(0x201),'qaATy':function(_0x141c61,_0x234636,_0x41c0af){return _0x141c61(_0x234636,_0x41c0af);},'mhzbO':_0x5f257b(0x1ba),'qCQfv':_0x5f257b(0x19f)+'rt'},_0xa7a501=document[_0x5f257b(0x233)+_0x5f257b(0x1b7)](_0x3f21a7[_0x5f257b(0x2b6)]);_0xa7a501[_0x5f257b(0x18a)](_0x275b47=>{const _0x20557d=_0x5f257b,_0x5dc609={'hprre':_0x3f21a7[_0x20557d(0x2a7)],'CsfEF':_0x3f21a7[_0x20557d(0x19e)],'dzgHd':function(_0x50a59a,_0x1b8520,_0x3e1c6f){const _0xc6630=_0x20557d;return _0x3f21a7[_0xc6630(0x1d6)](_0x50a59a,_0x1b8520,_0x3e1c6f);}};_0x275b47[_0x20557d(0x25e)+_0x20557d(0x2bd)](_0x3f21a7[_0x20557d(0x22b)],function(){const _0x143592=_0x20557d,_0x10950c=this[_0x143592(0x253)+'te'](_0x5dc609[_0x143592(0x18e)]),_0x580205=this[_0x143592(0x253)+'te'](_0x5dc609[_0x143592(0x2c1)]);_0x5dc609[_0x143592(0x254)](añadirAlCarrito,_0x10950c,_0x580205);});});}function seleccionarPromo(_0x118193){const _0xfcbd34=_0x1190a3,_0x2137f4={'GaBDR':function(_0x1c8889){return _0x1c8889();}};promoState=_0x118193,_0x2137f4[_0xfcbd34(0x21c)](mostrarBurgers);}mostrarBurgers(),document[_0x1190a3(0x29c)+_0x1190a3(0x1a7)](_0x1190a3(0x2c3)+_0x1190a3(0x2cb))[_0x1190a3(0x25e)+_0x1190a3(0x2bd)](_0x1190a3(0x1ba),()=>seleccionarPromo(_0x1190a3(0x1e5))),document[_0x1190a3(0x29c)+_0x1190a3(0x1a7)](_0x1190a3(0x1e4))[_0x1190a3(0x25e)+_0x1190a3(0x2bd)](_0x1190a3(0x1ba),()=>seleccionarPromo('si'));function _0x3c50(){const _0x3b2095=['rmada,\x20eli','de,\x20chedda','doble','DHDXN','btn-outlin','PtJsv','\x20\x20\x20\x20\x20\x20\x20\x20\x20<','qaATy','BURGUER\x20NA','JTznW','cantidad','tamaño','\x20unidad(es','ex-row\x22\x20>\x0a','la\x20con\x20red','al\x20Carrito','on\x20class=\x22','Vvcmr','ItAbF','img/B-Malb','ESOlL','doblePromo','none','Pan\x20de\x20que','NDRIX','1105461phlntq','sanal.jpg','nal,\x20chedd','jamKT','y\x20mayonesa','oli.','guesa:\x20','ASFoF','img/B-Medi','\x22\x20data-pro','HEBPv','ubicacion','data-type','\x20src=\x22','uLqZs','\x20d-flex\x20fl','ass=\x22card\x20','\x20\x20\x20<div\x20cl','WGyFD','Cheddar,\x20b','open','sa.\x20','TtCnx','yCXpD','simple','data-promo','img/B-Delu','RFiIp','Por\x20favor,','r,\x20bacon,\x20','BURGUER\x20ME','\x20cebolla\x20m','ofXfM','precio','romo\x20o\x20pid','a\x20una\x20prom','\x20huevo,\x20ce','img/PattyM','eMlRh','aca\x20y\x20toma','t\x22\x20data-bu','BURGUER\x20MA','</p>\x0a\x20\x20\x20\x20\x20','y\x20alioli.','PATTY\x20MELT','data-burge','tualizado:','\x20está\x20vaci','</button>\x0a','iGXls','om/maps/se','\x20Pan\x20de\x20qu','GaBDR','hal,\x20albah','center\x22><b','kGTbY','\x20a\x20la\x20plan','AINyW','elt.jpg','\x20\x20\x20\x20\x20\x20<img','s\x20pedir\x20na','v>\x0a\x20\x20\x20\x20\x20\x20\x20','\x20ketchup\x20y','DRiUI','yqFct','2iCfNbK','img/B-Napo','mhzbO','ada\x20al\x20car','crhVS','terranea.j','ec.jpg','<p>','arch/?api=','bolla\x20mora','querySelec','ada\x20y\x20mayo','prEIk','ucción\x20de\x20','1497990nSIZvP','justify-co','ex-column\x20','TESANAL','value','\x20doble\x20con','Selecciona','ext=','ghraK','icbOL','cDuqP','burgers-co','text\x20text-','nesa.','LUXE','img/B-4Q.j','mo=\x22','\x20y\x20mayones','https://ap','Hola,\x20quie','a,\x20tomate,','PoJox','acon\x20y\x20gua','malbec,\x20qu','ebolla\x20mor','ispy,\x20lech','ro\x20pedir:\x0a','SueNo','getAttribu','dzgHd','.com/send?','\x20y\x20','IxbZW','w.google.c','innerHTML','camole.','\x20otra\x20hamb','algo\x20salío','\x20\x20\x20\x20\x20</div','addEventLi','rix.jpg','ingredient','bidHV','DQMwL','.jpg','eso\x20emment','doble).','fmtGz','16aoGnqT','mg-fluid\x22\x20','ción.',',\x20jamon\x20cr','promo','zOrSb','ZpPFp','\x20una\x20ubica','tal:\x20','add-to-car','nal,\x20cebol','so,\x20chedda','mvksV','div\x20class=','https://ww','\x20mal','oRUHD','ent','\x20Ubicacion','checked','SOdvY','6725XziUtV','carrito','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20','ntainer',')\x20-\x20$','X-MEX','o,\x20no\x20pode','phone=5426','rito','a\x20y\x20mayone','ION\x20BBQ','ar,\x20muzza,','VKJux','da,\x20lechug','MeUNr','\x20\x20\x20\x20\x20<p\x20cl','ass=\x22card-','El\x20carrito','omate,\x20ali','rger=\x22','cebolla\x20ca','BURGUER\x20ON','a\x20crispy,\x20','DhKiq','LBEC','Hamburgues','ramelizada','a\x20ya\x20agreg','tipo','triple','\x22\x20class=\x22i','ar,\x20ceboll','getElement','ate\x20y\x20mayo','-center\x22\x20>','col-md-6\x20m','join','DITERRANEA','BURGUER\x20DE','\x20introduce','>Ingredien','BURGUER\x20HE','Pan\x20de\x20mol','nZwGf','div',',\x20ketchup\x20',')\x20-\x20','BviVz','zbOvo','IUqbL','Promo\x20ya\x20a','316194LgmUbo','tes\x20cherry','Mex.jpg','\x20\x20\x20\x20\x20<butt','sxPwu','className','OsRbc','qCQfv','Pan\x20artesa','img/B-Tex-','e-primary\x20','lechuga,\x20t','nombre','on\x20cocido,','stener','YSYtW','er\x22>\x0a\x20\x20\x20\x20\x20',',\x20provolon','CsfEF','oción\x20(ind','individual','Dambo,\x20jam','bYbVF','10ZjATwN','ar\x20la\x20prom','cha,\x20rúcul','ccionado','ja\x20nueva\x20p','Promo','length','\x22card-body','imgSrc','name','nnCWj','i.whatsapp','uga,\x20tomat','ntent-cent','tes</b>:\x20','Rsscd','qsDHX','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','img/B-Arte','QUESOS','a,\x20tomate\x20','forEach','1869216Sysyow','SJDkR','Muzza,\x20jam','hprre','log','magnum','\x22>Agregar\x20','BURGUER\x20AR','cyIDg','orada,\x20tom','img/B-Hend','eso,\x20chedd','BURGUER\x20TE','\x20\x20\x20\x20\x20\x20</di','Carrito\x20ac','RNCWA','tamañoSele','\x20roquefort','ividual\x20o\x20','ZLDGj','.add-to-ca','b-3','BURGUER\x204\x20','cjlOT','893106xpxPCx','1&query=','map','FhUmJ','ById','title\x20text','e,\x20cebolla','</p>','cHCwq','Cheddar,\x20c','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20','nal,\x20muzza','\x20Una\x20promo','pOynT','\x20alt=\x22','cebolla\x20cr','sVpQI','e,\x20ketchup','hOIJW','img/B-OBBQ','torAll','Elegí\x20una,','push','click','aoWsL','FEbLY','\x20mayonesa.','\x20seleccion','filter','appendChil','xe.jpg','YSIKE','ra\x20complet','\x20Precio\x20to','44806290&t','4169646aXlfJZ','msCgF','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','oDlbp','udo,\x20rucul','createElem','Una\x20hambur','urguesa\x20pa','\x20no\x20dos'];_0x3c50=function(){return _0x3b2095;};return _0x3c50();}function añadirAlCarrito(_0x248fab,_0x58a271,_0x35dd6a){const _0x1c9826=_0x1190a3,_0x3591e5={'sVpQI':function(_0x374709){return _0x374709();},'ofXfM':function(_0x3293b4,_0x561a0b){return _0x3293b4(_0x561a0b);},'WGyFD':_0x1c9826(0x204)+_0x1c9826(0x1be)+_0x1c9826(0x20b)+_0x1c9826(0x2c2)+_0x1c9826(0x19d)+_0x1c9826(0x265),'kGTbY':function(_0x796ff0,_0x2403a1){return _0x796ff0===_0x2403a1;},'DhKiq':_0x1c9826(0x2c3),'YSYtW':function(_0x517f3d,_0x4905be,_0x24f7c4){return _0x517f3d(_0x4905be,_0x24f7c4);},'bidHV':function(_0x3fab53,_0x40867f){return _0x3fab53(_0x40867f);},'IUqbL':_0x1c9826(0x295)+_0x1c9826(0x297)+_0x1c9826(0x22c)+_0x1c9826(0x284),'bYbVF':_0x1c9826(0x1d1),'prEIk':function(_0x4636f8,_0x26bf63){return _0x4636f8>_0x26bf63;},'ASFoF':function(_0xcef0b,_0x2b9241){return _0xcef0b-_0x2b9241;},'MeUNr':_0x1c9826(0x26b),'RFiIp':function(_0x38b274,_0x4be58f){return _0x38b274<_0x4be58f;},'uLqZs':function(_0x39e357,_0x267a55){return _0x39e357-_0x267a55;},'msCgF':function(_0x3e62de,_0x3473c0){return _0x3e62de(_0x3473c0);},'cjlOT':_0x1c9826(0x2ae)+_0x1c9826(0x1cf)+_0x1c9826(0x2ca)+_0x1c9826(0x20a)+'a','jamKT':function(_0x4cac04,_0xeea356,_0x29f270){return _0x4cac04(_0xeea356,_0x29f270);},'zbOvo':_0x1c9826(0x25c)+_0x1c9826(0x276)},_0x113b5e=_0x3591e5[_0x1c9826(0x1b3)](obtenerTipoPromo),_0x25ca4d=_0x3591e5[_0x1c9826(0x1b3)](obtenerTamaño);try{if(!_0x113b5e){_0x3591e5[_0x1c9826(0x208)](alert,_0x3591e5[_0x1c9826(0x1fa)]);return;}else{if(_0x3591e5[_0x1c9826(0x21f)](_0x113b5e,null)){_0x3591e5[_0x1c9826(0x208)](alert,_0x3591e5[_0x1c9826(0x1fa)]);return;}}if(_0x3591e5[_0x1c9826(0x21f)](_0x113b5e,_0x3591e5[_0x1c9826(0x293)])){let _0x3c10b5={'tipo':_0x3591e5[_0x1c9826(0x293)],'nombre':_0x248fab,'tamaño':_0x25ca4d,'cantidad':0x1,'precio':_0x3591e5[_0x1c9826(0x2be)](calcularPrecio,_0x25ca4d,0x4c*0x6b+-0x1085*0x2+0x6d*0x3)};carrito[_0x1c9826(0x1b9)](_0x3c10b5),exito&&_0x3591e5[_0x1c9826(0x261)](alert,_0x3591e5[_0x1c9826(0x2ad)]);}else{if(_0x3591e5[_0x1c9826(0x21f)](_0x113b5e,_0x3591e5[_0x1c9826(0x2c5)])){if(_0x3591e5[_0x1c9826(0x235)](carrito[_0x1c9826(0x2cc)],-0x11f8+0x20e8+-0xef0)&&_0x3591e5[_0x1c9826(0x21f)](carrito[_0x3591e5[_0x1c9826(0x1ef)](carrito[_0x1c9826(0x2cc)],-0x1fc1+-0x17fb+0x37bd*0x1)][_0x1c9826(0x298)],_0x3591e5[_0x1c9826(0x28a)])&&_0x3591e5[_0x1c9826(0x203)](carrito[_0x3591e5[_0x1c9826(0x1ef)](carrito[_0x1c9826(0x2cc)],0x55b*0x1+-0x1*0x1808+0x6*0x31d)][_0x1c9826(0x2bb)][_0x1c9826(0x2cc)],-0x1*0x21bb+-0x6*0x225+0x2e9b))carrito[_0x3591e5[_0x1c9826(0x1f6)](carrito[_0x1c9826(0x2cc)],-0x1262+0x1f*0x65+0x628)][_0x1c9826(0x2bb)][_0x1c9826(0x1b9)](_0x248fab),_0x3591e5[_0x1c9826(0x1c7)](alert,_0x3591e5[_0x1c9826(0x1a2)]);else{let _0xc67de1={'tipo':_0x3591e5[_0x1c9826(0x28a)],'nombre':[_0x248fab],'tamaño':_0x25ca4d,'cantidad':0x2,'precio':_0x3591e5[_0x1c9826(0x1eb)](calcularPrecio,_0x25ca4d,0x18f2*-0x1+-0x3ab+0x1c9f)};carrito[_0x1c9826(0x1b9)](_0xc67de1);}}}}catch(_0x5f2215){_0x3591e5[_0x1c9826(0x261)](alert,_0x3591e5[_0x1c9826(0x2ac)]),exito=![];}}let promoSeleccionadas=[];function manejarPromo(_0x4ff060,_0x1b0764){const _0x18b050=_0x1190a3,_0x253598={'FhUmJ':function(_0xb97b03,_0x1acc52){return _0xb97b03===_0x1acc52;},'VKJux':function(_0x50a8ab,_0x1ceab2){return _0x50a8ab(_0x1ceab2);},'zOrSb':function(_0x331b52,_0x450867){return _0x331b52(_0x450867);},'OsRbc':_0x18b050(0x23d)+_0x18b050(0x25b)+_0x18b050(0x1cd)+_0x18b050(0x1c3)+_0x18b050(0x2c7)+'o'};promoSeleccionadas[_0x18b050(0x1b9)]({'nombre':_0x4ff060,'tipo':_0x1b0764}),_0x253598[_0x18b050(0x1a6)](promoSeleccionadas[_0x18b050(0x2cc)],0x39e*-0x7+-0x1509+-0x2e5d*-0x1)?(_0x253598[_0x18b050(0x288)](añadirPromoAlCarrito,promoSeleccionadas),promoSeleccionadas=[]):_0x253598[_0x18b050(0x26c)](alert,_0x253598[_0x18b050(0x2b5)]);}function añadirPromoAlCarrito(_0x4a2ab3){const _0xc1f32e=_0x1190a3,_0x337b44={'yqFct':function(_0x589d5f,_0x42b969,_0x5b5546){return _0x589d5f(_0x42b969,_0x5b5546);},'ItAbF':_0xc1f32e(0x26b),'sxPwu':_0xc1f32e(0x199)+_0xc1f32e(0x216)+'\x20'};let _0x1787e8=_0x4a2ab3[-0x1*-0x1885+-0x15*0x21+-0x15d0][_0xc1f32e(0x298)],_0x311714=_0x337b44[_0xc1f32e(0x228)](calcularPrecio,_0x1787e8,-0x2306*-0x1+0x2123+-0x4427),_0x741135={'tipo':_0x337b44[_0xc1f32e(0x1e1)],'nombre':_0x4a2ab3[_0xc1f32e(0x1a5)](_0x493a45=>_0x493a45[_0xc1f32e(0x2bb)]),'tamaño':_0x1787e8,'cantidad':0x2,'precio':_0x311714};carrito[_0xc1f32e(0x1b9)](_0x741135),console[_0xc1f32e(0x18f)](_0x337b44[_0xc1f32e(0x2b3)],carrito);}function calcularPrecio(_0x47bb07,_0x504c5a){const _0x1e9a61=_0x1190a3,_0x451b7d={'icbOL':function(_0x259f8c,_0x4f6bf5){return _0x259f8c===_0x4f6bf5;},'RNCWA':_0x1e9a61(0x200),'cyIDg':_0x1e9a61(0x1d1),'crhVS':_0x1e9a61(0x299),'iGXls':_0x1e9a61(0x190),'ESOlL':function(_0x52b6b8,_0x5c3973){return _0x52b6b8===_0x5c3973;}};let _0xfd863a;if(_0x451b7d[_0x1e9a61(0x240)](_0x504c5a,0x939*-0x1+0x2708+0xda*-0x23))switch(_0x47bb07){case _0x451b7d[_0x1e9a61(0x19a)]:_0xfd863a=-0x1d9*-0xb+0x3c4*-0x4+-0x2f*-0x63;break;case _0x451b7d[_0x1e9a61(0x193)]:_0xfd863a=-0x1*0x31a0+-0xc28+-0x1b1*-0x34;break;case _0x451b7d[_0x1e9a61(0x22d)]:_0xfd863a=-0x3*0x5c6+-0x313e+0x5f78;break;case _0x451b7d[_0x1e9a61(0x219)]:_0xfd863a=0x34*-0x2f+-0x30d4+0x5a04*0x1;break;default:_0xfd863a=0x3bc*0x6+0xb8*-0x5+0x4a0;}else{if(_0x451b7d[_0x1e9a61(0x1e3)](_0x504c5a,0x1*0x14d+0x24e1+-0x262c))switch(_0x47bb07){case _0x451b7d[_0x1e9a61(0x19a)]:_0xfd863a=-0x4b79+-0x1*0x7c7+0x4*0x1f2a;break;case _0x451b7d[_0x1e9a61(0x193)]:_0xfd863a=0x6*-0x7a6+0x12c8+0x14*0x3b3;break;case _0x451b7d[_0x1e9a61(0x22d)]:_0xfd863a=-0x36cd+0x2ce5+0x3e40;break;case _0x451b7d[_0x1e9a61(0x219)]:_0xfd863a=0x5a05+-0x17c9*-0x4+-0x7f59;break;default:_0xfd863a=0x3d*0x12+-0x5c*0x5+0x26ea;}}return precio+=_0xfd863a,_0xfd863a;}function mostrarCarrito(){const _0x5e8f0c=_0x1190a3,_0x1f238d={'JTznW':_0x5e8f0c(0x27d)},_0x3eee58=document[_0x5e8f0c(0x29c)+_0x5e8f0c(0x1a7)](_0x1f238d[_0x5e8f0c(0x1d8)]);_0x3eee58[_0x5e8f0c(0x259)]='',carrito[_0x5e8f0c(0x18a)](_0x475fc1=>{const _0x1dcced=_0x5e8f0c;let _0x2996af=_0x1dcced(0x230)+_0x475fc1[_0x1dcced(0x298)]+':\x20'+_0x475fc1[_0x1dcced(0x2bb)]+'\x20('+_0x475fc1[_0x1dcced(0x1da)]+_0x1dcced(0x2aa)+_0x475fc1[_0x1dcced(0x1d9)]+(_0x1dcced(0x1db)+_0x1dcced(0x280))+_0x475fc1[_0x1dcced(0x209)]+_0x1dcced(0x1aa);_0x3eee58[_0x1dcced(0x259)]+=_0x2996af;});}function obtenerTipoPromo(){const _0x348a4c=_0x1190a3,_0x2df411={'Rsscd':_0x348a4c(0x2c3)+_0x348a4c(0x2cb),'hOIJW':_0x348a4c(0x1e4),'cDuqP':function(_0x5960ed,_0x519bb9){return _0x5960ed&&_0x519bb9;},'nnCWj':function(_0xd3049c,_0x431296){return _0xd3049c(_0x431296);},'mvksV':_0x348a4c(0x1b8)+_0x348a4c(0x1ce),'SOdvY':_0x348a4c(0x2c3),'DHDXN':_0x348a4c(0x1d1)},_0x55740b=document[_0x348a4c(0x29c)+_0x348a4c(0x1a7)](_0x2df411[_0x348a4c(0x184)])[_0x348a4c(0x27a)],_0x576b9b=document[_0x348a4c(0x29c)+_0x348a4c(0x1a7)](_0x2df411[_0x348a4c(0x1b5)])[_0x348a4c(0x27a)];if(_0x2df411[_0x348a4c(0x241)](_0x55740b,_0x576b9b))return _0x2df411[_0x348a4c(0x17f)](alert,_0x2df411[_0x348a4c(0x273)]),null;if(_0x55740b)return _0x2df411[_0x348a4c(0x27b)];else return _0x576b9b?_0x2df411[_0x348a4c(0x1d2)]:null;}function obtenerTamaño(){const _0x3bdf2e=_0x1190a3,_0x31f7c8={'TtCnx':_0x3bdf2e(0x19b)+_0x3bdf2e(0x2c9)};return document[_0x3bdf2e(0x29c)+_0x3bdf2e(0x1a7)](_0x31f7c8[_0x3bdf2e(0x1fe)])[_0x3bdf2e(0x23b)];}document[_0x1190a3(0x233)+_0x1190a3(0x1b7)](_0x1190a3(0x19f)+'rt')[_0x1190a3(0x18a)](_0x4eb9d9=>{const _0x1248c5=_0x1190a3,_0x4bda0a={'eMlRh':_0x1248c5(0x215)+'r','DRiUI':_0x1248c5(0x1f4),'AINyW':_0x1248c5(0x201),'FEbLY':function(_0x53e49b,_0x3162a9,_0x355924,_0x4d6717,_0x3a6159){return _0x53e49b(_0x3162a9,_0x355924,_0x4d6717,_0x3a6159);},'SueNo':function(_0x3e0bbc){return _0x3e0bbc();},'oDlbp':_0x1248c5(0x1ba)};_0x4eb9d9[_0x1248c5(0x25e)+_0x1248c5(0x2bd)](_0x4bda0a[_0x1248c5(0x1c9)],function(){const _0x1de27b=_0x1248c5,_0x43154c=this[_0x1de27b(0x253)+'te'](_0x4bda0a[_0x1de27b(0x20e)]),_0x1c2993=this[_0x1de27b(0x253)+'te'](_0x4bda0a[_0x1de27b(0x227)]),_0x38c4f0=this[_0x1de27b(0x253)+'te'](_0x4bda0a[_0x1de27b(0x221)]);_0x4bda0a[_0x1de27b(0x1bc)](añadirAlCarrito,_0x43154c,_0x1c2993,_0x38c4f0,_0x4bda0a[_0x1de27b(0x252)](calcularPrecio));});});function generarLink(){const _0x2badfb=_0x1190a3,_0x5b5984={'IxbZW':_0x2badfb(0x1f3),'PoJox':function(_0x2a0ef6,_0x4fc82f){return _0x2a0ef6(_0x4fc82f);},'HEBPv':function(_0x55e527,_0x41650e){return _0x55e527(_0x41650e);},'BviVz':_0x2badfb(0x204)+_0x2badfb(0x2a3)+_0x2badfb(0x26e)+_0x2badfb(0x269)},_0x54132e=document[_0x2badfb(0x29c)+_0x2badfb(0x1a7)](_0x5b5984[_0x2badfb(0x257)])[_0x2badfb(0x23b)];ubi=document[_0x2badfb(0x29c)+_0x2badfb(0x1a7)](_0x5b5984[_0x2badfb(0x257)])[_0x2badfb(0x23b)];if(_0x54132e){const _0x171390=_0x5b5984[_0x2badfb(0x24c)](encodeURIComponent,_0x54132e);return mapsLink=_0x2badfb(0x275)+_0x2badfb(0x258)+_0x2badfb(0x21a)+_0x2badfb(0x231)+_0x2badfb(0x1a4)+_0x171390,!![];}else return _0x5b5984[_0x2badfb(0x1f2)](alert,_0x5b5984[_0x2badfb(0x2ab)]),![];}function hacerPedido(){const _0xc537ce=_0x1190a3,_0x5c7213={'oRUHD':function(_0x49fef5,_0x3a3548){return _0x49fef5===_0x3a3548;},'DQMwL':_0xc537ce(0x2c3),'yCXpD':_0xc537ce(0x26b),'aoWsL':_0xc537ce(0x256),'Vvcmr':function(_0x20ba55){return _0x20ba55();},'ghraK':_0xc537ce(0x24a)+_0xc537ce(0x251),'ZpPFp':function(_0x53dde0,_0xc3c74b){return _0x53dde0(_0xc3c74b);},'qsDHX':_0xc537ce(0x28d)+_0xc537ce(0x217)+_0xc537ce(0x282)+_0xc537ce(0x224)+'da'};if(_0x5c7213[_0xc537ce(0x1e0)](generarLink)){let _0x197973=_0x5c7213[_0xc537ce(0x23f)];if(_0x5c7213[_0xc537ce(0x277)](carrito[_0xc537ce(0x2cc)],0x14aa+0x2608+0x2*-0x1d59))_0x5c7213[_0xc537ce(0x26d)](alert,_0x5c7213[_0xc537ce(0x185)]);else{carrito[_0xc537ce(0x18a)](_0x33b54b=>{const _0xa7e43d=_0xc537ce;if(_0x5c7213[_0xa7e43d(0x277)](_0x33b54b[_0xa7e43d(0x298)],_0x5c7213[_0xa7e43d(0x262)]))_0x197973+=_0xa7e43d(0x1cc)+_0xa7e43d(0x1ee)+_0x33b54b[_0xa7e43d(0x2bb)]+'\x20('+_0x33b54b[_0xa7e43d(0x1da)]+')\x0a';else _0x5c7213[_0xa7e43d(0x277)](_0x33b54b[_0xa7e43d(0x298)],_0x5c7213[_0xa7e43d(0x1ff)])&&(_0x197973+=_0xa7e43d(0x1af)+_0xa7e43d(0x23c)+':\x20'+_0x33b54b[_0xa7e43d(0x2bb)][_0xa7e43d(0x2a0)](_0x5c7213[_0xa7e43d(0x1bb)])+'\x20('+_0x33b54b[_0xa7e43d(0x1da)]+')\x0a');}),_0x197973+=_0xc537ce(0x1c4)+_0xc537ce(0x26f)+precio+'\x0a',_0x197973+=_0xc537ce(0x279)+':\x20'+mapsLink+'\x0a\x0a'+ubi;let _0x481633=_0xc537ce(0x249)+_0xc537ce(0x180)+_0xc537ce(0x255)+_0xc537ce(0x283)+_0xc537ce(0x1c5)+_0xc537ce(0x23e)+_0x5c7213[_0xc537ce(0x26d)](encodeURIComponent,_0x197973);window[_0xc537ce(0x1fc)](_0x481633),carrito=[],precio=-0x1124+0xa3a+0x6ea,mapsLink='',ubi='';}}else return;}
+// Datos de hamburguesas y promociones
+const burgers = [
+    { name: "BURGUER HENDRIX", ingredientes: "Dambo, jamon cocido, huevo, cebolla morada, lechuga, tomate, ketchup y mayonesa.", imgSrc: "img/B-Hendrix.jpg", promo: "si" },
+    { name: "BURGUER ARTESANAL", ingredientes: "Pan artesanal, cheddar, cebolla crispy, lechuga, tomate, alioli.", imgSrc: "img/B-Artesanal.jpg", promo: "si" },
+    { name: "BURGUER ONION BBQ", ingredientes: "Cheddar, cebolla morada y mayonesa.", imgSrc: "img/B-OBBQ.jpg", promo: "si" },
+    { name: "BURGUER MEDITERRANEA", ingredientes: "Pan artesanal, muzza, jamon crudo, rucula, tomate y alioli.", imgSrc: "img/B-Mediterranea.jpg", promo: "si" },
+    { name: "BURGUER NAPO", ingredientes: "Muzza, jamon cocido, cebolla morada, tomate y mayonesa.", imgSrc: "img/B-Napo.jpg", promo: "si" },
+    { name: "BURGUER TEX-MEX", ingredientes: "Cheddar, bacon y guacamole.", imgSrc: "img/B-Tex-Mex.jpg", promo: "si" },
+    { name: "BURGUER MALBEC", ingredientes: "Pan artesanal, cebolla con reducción de malbec, queso emmenthal, albahaca y tomates cherrys.", imgSrc: "img/B-Malbec.jpg", promo: "no" },
+    { name: "PATTY MELT", ingredientes: "Pan de molde, cheddar, bacon, cebolla caramelizada, ketchup y mayonesa.", imgSrc: "img/PattyMelt.jpg", promo: "no" },
+    { name: "BURGUER 4 QUESOS", ingredientes: " Pan de queso, cheddar, muzza, roquefort, provolone, cebolla a la plancha, rúcula y mayonesa. ", imgSrc: "img/B-4Q.jpg", promo: "no" },
+    { name: "BURGUER DELUXE", ingredientes: "Pan de queso, cheddar, bacon, cebolla crispy, lechuga, tomate, ketchup y mayonesa.", imgSrc: "img/B-Deluxe.jpg", promo: "no" },
+    { name: "BURGUER CHESSE", ingredientes: "Pan de queso, cheddar, cebolla a la plancha, ketchup y mayonesa.", imgSrc: "", promo: "si" },
+    { name: "BURGUER PHILLY", ingredientes: "Pan de queso, dambo, huevo, cebolla caramelizada, tomate, ketchuo y mayonesa.", imgSrc: "", promo: "si" },
+    { name: "BURGUER HOUSE", ingredientes: "Cheddar, cebolla morada y mayonesa.", imgSrc: "", promo: "si" },
+    { name: "BURGUER MOLLO", ingredientes: "Pan artesanal, cheddar, bacon, huevo y mayonesa.", imgSrc: "", promo: "si" },
+    { name: "BURGUER BLUE CHEESE", ingredientes: "Pan artesanal, roquefort, cebolla morada, rucula, tomate y alioli.", imgSrc: "", promo: "si" },
+    { name: "BURGUER YORK", ingredientes: "Muzza, bacon, huevo, cebolla a la plancha y barbacoa.", imgSrc: "", promo: "si" },
+    { name: "BURGUER CLASSIC/VEGIE", ingredientes: "Cheddar, cebolla morada, pepino, lechuga, tomate, ketchup y mayonesa.", imgSrc: "", promo: "si" },
+    { name: "BURGUER BACON", ingredientes: "Cheddar, bacon, cebolla a la plancha, tomate, ketchup y mayonesa.", imgSrc: "", promo: "si" },
+    { name: "BURGUER ROYAL", ingredientes: "Pan de queso, cheddar, bacon, cebolla a la plancha, pepinos y barbacoa.", imgSrc: "", promo: "si" },
+    { name: "BURGUER HONEY", ingredientes: "Pan de queso, cheddar, bacon, cebolla a la plancha, mostaza y miel.", imgSrc: "", promo: "si" },
+    { name: "BURGUER PROVO", ingredientes: "Pan artesanal, provolone, cabolla morada, tomate y alioli.", imgSrc: "", promo: "si" },
+    { name: "BURGUER PUMPER", ingredientes: "Pan de queso, cheddar, bacon, cebolla morada y barbacoa.", imgSrc: "", promo: "si" },
+    { name: "BURGUER POLLO CRISPY", ingredientes: "Cheddar, bacon, cebolla morada, pepino, lechuga, mostaza y miel.", imgSrc: "", promo: "no" },
+
+    // Agrega más hamburguesas según sea necesario
+]
+const opcionesExtras = [
+    { id: 'aros_cebolla', nombre: 'Aros de cebolla x10', precio: 4000 },
+    { id: 'nuggets_pollo', nombre: 'Nuggets de pollo x10', precio: 4000 },
+    { id: 'extra_cheddar', nombre: 'Cheddar', precio: 5000 },
+    { id: 'extra_papas', nombre: 'Papas', precio: 4500 }
+];
+import {
+    mostrarAlerta_horario, mostrarAlerta_eligeunasolapromo, mostrarAlerta_hamburguesaagregada, mostrarAlerta_promoarmada, mostrarAlerta_faltauna, mostrarAlerta_ubicacion, mostrarAlerta_carritovacio
+} from './funciones_repetidas.js';
+// Estado de la promo ("none" si es individual, "promo" si es promoción de 2 hamburguesas)
+let promoState = "none"; // Inicializa el estado de la promoción como "none", es decir, sin promoción seleccionada.
+let carrito = []; // Array vacío que almacenará los ítems agregados al carrito.
+let exito = true; // Variable de control para indicar si una acción se realizó con éxito.
+let precio = 0
+let mapsLink
+let ubi
+let extras = ""
+
+function mostrarBurgers() {
+    const container = document.getElementById('burgers-container');
+    if (container) {
+        container.innerHTML = ''; // Limpiar el contenedor
+        // Filtrar hamburguesas según el estado de la promoción
+        const filteredBurgers = promoState === "none" ? burgers : burgers.filter(burger => burger.promo === "si");
+
+        // Iterar sobre las hamburguesas filtradas
+        filteredBurgers.forEach(burger => {
+            const card = document.createElement('div');
+            card.className = 'col-md-6 mb-3';
+            card.innerHTML = `
+            <div class="card  d-flex flex-row" >
+                <img src="${burger.imgSrc}" class="img-fluid"  alt="${burger.name}">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <p class="card-title text-center" >${burger.name}</p>
+                    <p class="card-text text-center"><b>Ingredientes</b>: ${burger.ingredientes}</p>
+                    <button class="btn-outline-primary add-to-cart" data-burger="${burger.name}" data-promo="${burger.promo}">Agregar al Carrito</button>
+                </div>
+            </div>
+        `;
+            container.appendChild(card);
+        });
+
+        // Agregar event listeners a los nuevos botones
+        agregarEventListeners();
+    } else {
+        alert("errodasdar")
+    }
+
+}
+
+// Función para agregar eventos a los botones de agregar al carrito
+function agregarEventListeners() {
+    const buttons = document.querySelectorAll('.add-to-cart');
+    buttons.forEach(button => {
+        button.addEventListener('click', function () {
+            const burgerName = this.getAttribute('data-burger');
+            const burgerPromo = this.getAttribute('data-promo');
+            añadirAlCarrito(burgerName, burgerPromo);
+        });
+    });
+}
+
+// Función para manejar la selección de promoción
+function seleccionarPromo(nuevaPromo) {
+    promoState = nuevaPromo;
+    mostrarBurgers(); // Actualizar las hamburguesas mostradas
+}
+
+// Inicializar hamburguesas al cargar la página
+mostrarBurgers();
+
+// Event listeners para el cambio de promo
+document.getElementById('individualPromo').addEventListener('click', () => seleccionarPromo("none"));
+document.getElementById('doblePromo').addEventListener('click', () => seleccionarPromo("si"));
+// Llama a la función mostrarBurgers para mostrar las hamburguesas cuando la página carga.
+
+// Función para añadir hamburguesas al carrito
+function añadirAlCarrito(burgerName, burgerType, burgerPromo) {
+    const tipoPromo = obtenerTipoPromo();
+    // Obtiene el tipo de promoción seleccionada (individual o doble).
+    const tamañoSeleccionado = obtenerTamaño();
+    // Obtiene el tamaño de la hamburguesa seleccionada.
+
+    try {
+        if (!tipoPromo) {
+            mostrarAlerta_eligeunasolapromo()
+            return;
+        } else if (tipoPromo === null) {
+            mostrarAlerta_eligeunasolapromo()
+            return;
+        }
+
+        if (tipoPromo === "individual") {
+            // Añadir hamburguesa individual al carrito
+            let item = {
+                tipo: "individual",
+                nombre: burgerName,
+                tamaño: tamañoSeleccionado,
+                cantidad: 1,
+                precio: calcularPrecio(tamañoSeleccionado, 1)
+            };
+            carrito.push(item);
+            // Agrega la hamburguesa individual al carrito.
+
+            if (exito) {
+                mostrarAlerta_hamburguesaagregada()
+            }
+
+        } else if (tipoPromo === "doble") {
+            // Lógica para promo de 2 hamburguesas
+            if (carrito.length > 0 && carrito[carrito.length - 1].tipo === "promo" && carrito[carrito.length - 1].nombre.length < 2) {
+                // Si ya hay una promo en el carrito que no está completa, añade la segunda hamburguesa a la promo existente.
+                carrito[carrito.length - 1].nombre.push(burgerName);
+                mostrarAlerta_promoarmada()
+            } else {
+                // Si no hay una promo incompleta, crea una nueva promo y añade la primera hamburguesa.
+                let item = {
+                    tipo: "promo",
+                    nombre: [burgerName], // Empezar con un array que contiene el primer nombre.
+                    tamaño: tamañoSeleccionado,
+                    cantidad: 2,
+                    precio: calcularPrecio(tamañoSeleccionado, 2)
+                };
+                carrito.push(item);
+                // Agrega la promo al carrito.
+            }
+        }
+    } catch (error) {
+        alert("algo salío mal");
+        exito = false;
+        // Si ocurre un error, alerta y marca exito como false.
+    }
+}
+
+let promoSeleccionadas = [];
+// Array vacío para almacenar las hamburguesas seleccionadas en la promo.
+
+function manejarPromo(nombre, tipo) {
+    promoSeleccionadas.push({ nombre, tipo });
+    // Añade la hamburguesa seleccionada a promoSeleccionadas.
+
+    if (promoSeleccionadas.length === 2) {
+        // Si se han seleccionado 2 hamburguesas, añade la promo al carrito.
+        añadirPromoAlCarrito(promoSeleccionadas);
+        promoSeleccionadas = [];
+        // Resetea las hamburguesas seleccionadas.
+    } else {
+        mostrarAlerta_faltauna()
+    }
+}
+
+function añadirPromoAlCarrito(hamburguesas) {
+    let tipo = hamburguesas[0].tipo;
+    // Usa el tamaño de la primera hamburguesa como referencia.
+    let precio = calcularPrecio(tipo, 2);
+    // Calcula el precio para 2 hamburguesas.
+
+    let item = {
+        tipo: "promo",
+        nombre: hamburguesas.map(h => h.nombre),
+        // Mapea los nombres de las hamburguesas seleccionadas.
+        tamaño: tipo,
+        cantidad: 2,
+        precio: precio
+    };
+
+    carrito.push(item);
+    // Añade la promo al carrito.
+    console.log("Carrito actualizado: ", carrito);
+    // Muestra en consola el carrito actualizado.
+}
+
+function calcularPrecio(tamaño, tipoP) {
+    let precioBase;
+    if (tipoP === 1) {
+        switch (tamaño) {
+            case "simple":
+                precioBase = 6000;
+                break;
+            case "doble":
+                precioBase = 6700;
+                break;
+            case "triple":
+                precioBase = 7400;
+                break;
+            case "magnum":
+                precioBase = 8100;
+                break;
+            default:
+                precioBase = 6000;
+        }
+    } else if (tipoP === 2) {
+        switch (tamaño) {
+            case "simple":
+                precioBase = 10600;
+                break;
+            case "doble":
+                precioBase = 12000;
+                break;
+            case "triple":
+                precioBase = 13400;
+                break;
+            case "magnum":
+                precioBase = 14800;
+                break;
+            default:
+                precioBase = 10600;
+        }
+    }
+    precio += precioBase
+    return precioBase; // Retorna el precio base calculado
+}
+
+// Función para mostrar el contenido del carrito en el HTML
+function mostrarCarrito() {
+    const carritoDiv = document.getElementById('carrito');
+    // Obtiene el div donde se mostrará el contenido del carrito.
+    carritoDiv.innerHTML = ''; // Limpiar contenido previo
+
+    carrito.forEach((item) => {
+        // Itera sobre cada ítem en el carrito.
+        let itemTexto = `<p>${item.tipo}: ${item.nombre} (${item.tamaño}) - ${item.cantidad} unidad(es) - $${item.precio}</p>`;
+        // Crea una cadena HTML que describe el ítem.
+        carritoDiv.innerHTML += itemTexto;
+        // Añade el texto del ítem al contenido del div.
+    });
+}
+
+// Función para obtener el tipo de promoción seleccionada
+function obtenerTipoPromo() {
+    const individualPromo = document.getElementById('individualPromo').checked;
+    // Verifica si la opción de promoción individual está seleccionada.
+    const doblePromo = document.getElementById('doblePromo').checked;
+    // Verifica si la opción de promoción doble está seleccionada.
+
+    if (individualPromo && doblePromo) {
+        // Si ambas opciones están seleccionadas, muestra una alerta.
+        mostrarAlerta_eligeunasolapromo()
+        return null;
+        // Retorna null ya que no se puede seleccionar más de una promoción.
+    }
+    if (individualPromo) {
+        return "individual";
+        // Retorna "individual" si se seleccionó la promoción individual.
+    } else if (doblePromo) {
+        return "doble";
+        // Retorna "doble" si se seleccionó la promoción doble.
+    } else {
+        return null; // No se ha seleccionado una promo
+        // Retorna null si no se ha seleccionado ninguna promoción.
+    }
+}
+
+// Función para obtener el tamaño seleccionado de la hamburguesa
+function obtenerTamaño() {
+    return document.getElementById('tamañoSeleccionado').value;
+    // Obtiene el valor del tamaño seleccionado del elemento con id 'tamañoSeleccionado'.
+}
+
+// Agrega un evento click a cada botón de agregar al carrito
+document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', function () {
+        const burgerName = this.getAttribute('data-burger');
+        // Obtiene el nombre de la hamburguesa del atributo data-burger del botón.
+        const burgerType = this.getAttribute('data-type');
+        // Obtiene el tipo de hamburguesa del atributo data-type del botón.
+        const burgerPromo = this.getAttribute('data-promo');
+        // Obtiene el atributo de promoción del botón.
+        añadirAlCarrito(burgerName, burgerType, burgerPromo, calcularPrecio());
+        // Llama a la función añadirAlCarrito con los parámetros obtenidos.
+    });
+});
+
+function generarLink() {
+    const ubicacion = document.getElementById('ubicacion').value;
+    ubi = document.getElementById('ubicacion').value
+    if (ubicacion) {
+        const encodedUbicacion = encodeURIComponent(ubicacion);
+        mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodedUbicacion}`;
+        return true
+    } else {
+        mostrarAlerta_ubicacion()
+        return false
+    }
+}
+
+function buscar_extras() {
+    /*const extra_aros = document.getElementById('aros_cebolla').checked; 
+    const extra_nuggets = document.getElementById('nuggets_pollo').checked; 
+    const extra_cheddar = document.getElementById('extra_cheddar').checked; 
+    const extra_papas = document.getElementById('extra_papas').checked; 
+    if (extra_aros){
+        extras += " Aros de cebolla x10"
+        precio+=4000
+    }
+    if(extra_nuggets){
+        extras += " Nugeets de pollo x10"
+        precio+=4000
+    }
+    if(extra_cheddar){
+        extras += " Cheddar"
+        precio+=5000
+    }
+    if(extra_papas){
+        extras += " Papas"
+        precio+=4500
+    }*/
+    opcionesExtras.forEach(extra => {
+        if (document.getElementById(extra.id).checked) {
+            if (extras == "") {
+                extras += ` ${extra.nombre}`;
+                precio += extra.precio;
+            } else {
+                extras += ` , ${extra.nombre}`;
+                precio += extra.precio;
+            }
+        }
+    });
+}
+// Función para realizar el pedido final
+function hacer_Pedido() {
+    console.log("Dadsa")
+    if (generarLink()) {
+        let mensaje = "Hola, quiero pedir:\n";
+        // Inicializa el mensaje que se enviará por WhatsApp.
+        if (carrito.length === 0) {
+            mostrarAlerta_carritovacio()
+            // Muestra una alerta si el carrito está vacío.
+        } else {
+            carrito.forEach(item => {
+                // Itera sobre cada ítem en el carrito.
+                if (item.tipo === "individual") {
+                    mensaje += `Una hamburguesa: ${item.nombre} (${item.tamaño})\n`;
+                    // Añade la información de una hamburguesa individual al mensaje.
+                } else if (item.tipo === "promo") {
+                    mensaje += ` Una promo doble con: ${item.nombre.join(' y ')} (${item.tamaño})\n`;
+                    // Añade la información de una promoción doble al mensaje.
+                }
+            });
+            buscar_extras()
+            if (extras) {
+                mensaje += ` Extras: ${extras}\n`;
+            }
+            mensaje += ` Precio total: ${precio}\n`;
+            mensaje += ` Ubicacion: ${mapsLink}\n\n${ubi}`;
+
+            // Link de WhatsApp con el mensaje generado
+            let urlWhatsApp = `https://api.whatsapp.com/send?phone=542644806290&text=${encodeURIComponent(mensaje)}`;
+            // Crea un URL para enviar el mensaje por WhatsApp con el contenido del mensaje.
+            window.open(urlWhatsApp);
+            // Abre una nueva ventana con el link de WhatsApp.
+            carrito = []
+            precio = 0
+            mapsLink = ""
+            ubi = ""
+            extras = ""
+            // Limpia el carrito después de enviar el pedido.
+        }
+    } else {
+        return;
+    }
+}
+document.getElementById('boton_pedir').addEventListener('click', hacer_Pedido);

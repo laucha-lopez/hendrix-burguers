@@ -1,2 +1,92 @@
-/* OBFUSCATED BY CSSOBFUSCATOR.COM at 2024/09/17 04:45:13 */
-.principal{z-index:initial;}[class~=navbar],[class~=footer]{background-color:#eb3238 !important;}[class~=navbar-nav]{margin-left:auto !important;}.btn-outline-primary:hover{color:#fff;}[class~=nav-item],[class~=card-header] p{font-size:.208333333in;}#btn_flotante{display:scroll;}.btn-outline-primary:hover{border-left-color:#fff;}#btn_flotante{position:fixed;}#btn_flotante{bottom:10%;}#btn_flotante{right:0pt;}.btn-outline-primary{color:#eb3238;}#btn_flotante{z-index:999999;}.btn-outline-primary{border-left-color:#eb3238;}#btn_flotante{background:#eb3238;}.btn-outline-primary{border-bottom-color:#eb3238;}.btn-outline-primary{border-right-color:#eb3238;}.btn-outline-primary:hover{border-bottom-color:#fff;}.btn-outline-primary{border-top-color:#eb3238;}.btn-outline-primary:hover{border-right-color:#fff;}*{font-family:kanit;}#btn_flotante{color:#000;}#btn_flotante{font-size:22.5pt;}[class~=nav-item] a{color:white;}[class~=stylish-text-neon]{font-size:4rem;}[class~=form-label],[class~=stylish-text-neon]{color:#fff;}#btn_flotante{line-height:20.25pt;}[class~=stylish-text-neon]{font-weight:bold;}[class~=card] img{width:30%;}[class~=stylish-text-neon]{text-shadow:0 0 .052083333in #000,0 0 .625pc #000,0 0 .15625in #000,0 0 20px #eb3238,0 0 .260416667in #eb3238,0 0 1.875pc #eb3238;}[class~=stylish-text-neon]{text-transform:uppercase;}[class~=stylish-text-neon]{margin-top:1.25pc;}#btn_flotante{font-weight:bolder;}#btn_flotante{border-radius:.9375pc 0 0 .15625in;}[class~=card] img{object-fit:cover;}[class~=mb-4]{font-family:kurale;}[class~=principal]{opacity:.9;}.card{background-color:white;}#btn_flotante{padding-left:.260416667in;}#btn_flotante{padding-bottom:15pt;}.card{float:right;}.card{margin-bottom:.208333333in;}.card{height:100%;}[class~=card-title]{font-size:1.875pc;}#btn_flotante{padding-right:40px;}#btn_flotante{padding-top:15pt;}.btn-outline-primary:hover{border-top-color:#fff;}.btn-outline-primary:hover{background-color:#000;}#btn_flotante{text-decoration:none;}body{background-image:url("img/fondo2.jpg");}
+body {
+    background-image: url(img/fondo2.jpg);
+}
+.principal{
+    z-index: initial;
+}
+.navbar{
+    background-color: #EB3238 !important;
+}
+.navbar-nav {
+    margin-left: auto !important; /* Fuerza el alineamiento a la derecha */
+}
+.nav-item{
+    font-size: 20px;
+}
+.footer{
+    background-color: #EB3238 !important;
+}
+*{
+    font-family: kanit;
+}
+.btn-outline-primary{
+    color: #EB3238;
+    border-color: #EB3238;
+}
+.btn-outline-primary:hover{
+    color:#ffffff;
+    border-color: #ffffff;
+    background-color: #000000fe;
+}
+.stylish-text-neon {
+    font-size: 4rem; /* Tamaño del texto */
+    color: #ffffff; /* Color del texto (negro) */
+    font-weight: bold; /* Negrita */
+    text-shadow: 
+      0 0 5px #000000, /* Sombra blanca */
+      0 0 10px #000000, /* Sombra en color #000000 */
+      0 0 15px #000000, /* Sombra en color #000000 */
+      0 0 20px #EB3238, /* Sombra en color #EB3238 */
+      0 0 25px #EB3238, /* Sombra en color #EB3238 */
+      0 0 30px #EB3238; /* Sombra en color #EB3238 */
+    text-transform: uppercase; /* Mayúsculas */
+    margin-top: 20px; /* Margen superior */
+  }
+.form-label{
+    color: rgb(255, 255, 255);
+}
+.nav-item a{
+    color: white;
+}
+.mb-4{
+    font-family: kurale;
+}
+#btn_flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 10%;
+    right: 0px;
+    z-index: 999999;
+    background: #EB3238 ;
+    color: #000000;
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: bolder;
+    border-radius: 15px 0 0 15px;
+    padding: 20px 40px 20px 25px;
+    box-shadow: 5px 5px 10px rgb(71, 71, 71, 0.5);
+    text-decoration: none;
+}
+.principal{
+    opacity: 0.9;
+}
+.card{
+    background-color: white; 
+    float: right; 
+    margin-bottom: 20px; 
+    height: 100%;
+}
+.card img{
+    width: 30%; 
+    object-fit: cover;
+}
+.card-title{
+    font-size: 30px
+}
+.card-header p{
+    font-size: 20px;
+}
+.my-custom-button {
+    background-color: #EB3238; /* Cambia a tu color deseado */
+    color: white; /* Cambia el color del texto */
+}
