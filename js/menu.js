@@ -43,7 +43,7 @@ const burgers = [
                 <div class="card-body d-flex flex-column justify-content-center">
                     <p class="card-title text-center" >${burger.name}</p>
                     <p class="card-text text-center"><b>Ingredientes</b>: ${burger.ingredientes}</p>
-                    <button class="btn-outline-primary add-to-cart" data-burger="${burger.name}" data-promo="${burger.promo}">Agregar al Carrito</button>
+                    
                 </div>
             </div>
         `;
