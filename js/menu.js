@@ -43,7 +43,6 @@ const burgers = [
                 <div class="card-body d-flex flex-column justify-content-center">
                     <p class="card-title text-center" >${burger.name}</p>
                     <p class="card-text text-center"><b>Ingredientes</b>: ${burger.ingredientes}</p>
-                    
                 </div>
             </div>
         `;

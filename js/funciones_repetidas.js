@@ -9,6 +9,26 @@ export function mostrarAlerta_horario() {
         }
     });
 }
+export function mostrarAlerta_horario_pedidos() {
+     // Usamos SweetAlert para mostrar una alerta personalizada
+     Swal.fire({
+        title: '¡Fuera de horario!',
+        text: 'El horario de pedido es de 20pm a 1am.',
+        icon: 'error',
+        confirmButtonText: 'Aceptar',
+        customClass: {
+            confirmButton: 'my-custom-button' // Usa la clase personalizada
+        }
+    }).then((result) => {
+        // Si el usuario presiona "Aceptar", redirige al index
+        if (result.isConfirmed) {
+            window.location.href = 'index.html';
+        }
+    else {
+    window.location.href = 'menu_pedido.html';
+}
+});
+}
 export function mostrarAlerta_eligeunasolapromo() {
     Swal.fire({
         title: '¡Hubo un problema!',
@@ -45,7 +65,7 @@ export function mostrarAlerta_hamburguesaagregada() {
 export function mostrarAlerta_promoarmada() {
     Swal.fire({
         title: '¡Todo salió bien!',
-        text: 'Tu promo ya fue agregada al carrito.',
+        text: 'Tu promo de dos hamburguesas ya fue agregada al carrito.',
         icon: 'success',
         confirmButtonText: 'Aceptar',
         customClass: {

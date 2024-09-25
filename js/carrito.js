@@ -33,7 +33,7 @@ const opcionesExtras = [
     { id: 'extra_papas', nombre: 'Papas', precio: 4500 }
 ];
 import {
-    mostrarAlerta_horario, mostrarAlerta_eligeunasolapromo, mostrarAlerta_hamburguesaagregada, mostrarAlerta_promoarmada, mostrarAlerta_faltauna, mostrarAlerta_ubicacion, mostrarAlerta_carritovacio
+    mostrarAlerta_horario, mostrarAlerta_eligeunasolapromo, mostrarAlerta_hamburguesaagregada, mostrarAlerta_promoarmada, mostrarAlerta_faltauna, mostrarAlerta_ubicacion, mostrarAlerta_carritovacio, mostrarAlerta_horario_pedidos
 } from './funciones_repetidas.js';
 // Estado de la promo ("none" si es individual, "promo" si es promoción de 2 hamburguesas)
 let promoState = "none"; // Inicializa el estado de la promoción como "none", es decir, sin promoción seleccionada.
@@ -43,7 +43,26 @@ let precio = 0
 let mapsLink
 let ubi
 let extras = ""
-
+const ahora = new Date();
+document.addEventListener('DOMContentLoaded',function(event){
+    let hora = ahora.getHours()
+    if (hora < 20 && hora > 1) {
+      mostrarAlerta_horario_pedidos()
+    }
+    
+});
+document.querySelectorAll('.promo').forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+        if (this.checked) {
+            // Desmarcar todos los demás checkboxes
+            document.querySelectorAll('.promo').forEach(otherCheckbox => {
+                if (otherCheckbox !== this) {
+                    otherCheckbox.checked = false;
+                }
+            });
+        }
+    });
+});
 function mostrarBurgers() {
     const container = document.getElementById('burgers-container');
     if (container) {
@@ -149,7 +168,7 @@ function añadirAlCarrito(burgerName, burgerType, burgerPromo) {
                     cantidad: 2,
                     precio: calcularPrecio(tamañoSeleccionado, 2)
                 };
-                carrito.push(item);
+                carrito.push(item);                
                 // Agrega la promo al carrito.
             }
         }
@@ -169,7 +188,10 @@ function manejarPromo(nombre, tipo) {
 
     if (promoSeleccionadas.length === 2) {
         // Si se han seleccionado 2 hamburguesas, añade la promo al carrito.
+        mostrarAlerta_promoarmada();
+        console.log("ASdasdas")
         añadirPromoAlCarrito(promoSeleccionadas);
+
         promoSeleccionadas = [];
         // Resetea las hamburguesas seleccionadas.
     } else {
