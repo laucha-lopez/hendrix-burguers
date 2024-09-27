@@ -1,1 +1,93 @@
-.principal{z-index:initial;}[class~=navbar],.footer{background-color:#eb3238 !important;}[class~=navbar-nav]{margin-left:auto !important;}*{font-family:kanit;}[class~=nav-item],[class~=card-header] p{font-size:20px;}#btn_flotante{display:scroll;}[class~=btn-outline-primary]:hover{color:#fff;}[class~=btn-outline-primary]{color:#eb3238;}#btn_flotante{position:fixed;}#btn_flotante{bottom:10%;}[class~=btn-outline-primary]{border-left-color:#eb3238;}#btn_flotante{right:0px;}[class~=btn-outline-primary]:hover{border-left-color:#fff;}[class~=btn-outline-primary]{border-bottom-color:#eb3238;}[class~=btn-outline-primary]{border-right-color:#eb3238;}#btn_flotante{z-index:999999;}[class~=btn-outline-primary]{border-top-color:#eb3238;}#btn_flotante{background:#eb3238;}[class~=btn-outline-primary]:hover{border-bottom-color:#fff;}[class~=nav-item] a{color:white;}[class~=card] img{width:30%;}body{background-image:url("img/fondo2.jpg");}[class~=btn-outline-primary]{transition:color .4s ease,border-color .4s ease,background-color .4s ease;}#btn_flotante{color:#000;}.stylish-text-neon{font-size:4rem;}#btn_flotante,[class~=card-title]{font-size:22.5pt;}#btn_flotante{line-height:.28125in;}[class~=form-label],.stylish-text-neon{color:#fff;}.stylish-text-neon{font-weight:bold;}.stylish-text-neon{text-shadow:0 0 5px #000,0 0 .104166667in #000,0 0 11.25pt #000,0 0 .208333333in #eb3238,0 0 25px #eb3238,0 0 .3125in #eb3238;}#btn_flotante{font-weight:bolder;}#btn_flotante{border-radius:11.25pt 0 0 15px;}.stylish-text-neon{text-transform:uppercase;}[class~=btn-outline-primary]:hover{border-right-color:#fff;}#btn_flotante{padding-left:1.5625pc;}[class~=btn-outline-primary]:hover{border-top-color:#fff;}[class~=card] img{object-fit:cover;}.stylish-text-neon{margin-top:1.25pc;}.mb-4{font-family:kurale;}#btn_flotante{padding-bottom:15pt;}#btn_flotante{padding-right:.416666667in;}[class~=principal]{opacity:.9;}[class~=card]{background-color:white;}[class~=card]{float:right;}#btn_flotante{padding-top:20px;}#btn_flotante{text-decoration:none;}[class~=btn-outline-primary]:hover{background-color:#000;}[class~=card]{margin-bottom:20px;}[class~=card]{height:100%;}[class~=my-custom-button]{background-color:#eb3238;}[class~=my-custom-button]{color:white;}
+body {
+    background-image: url(img/fondo2.jpg);
+}
+.principal{
+    z-index: initial;
+}
+.navbar{
+    background-color: #EB3238 !important;
+}
+.navbar-nav {
+    margin-left: auto !important; /* Fuerza el alineamiento a la derecha */
+}
+.nav-item{
+    font-size: 20px;
+}
+.footer{
+    background-color: #EB3238 !important;
+}
+*{
+    font-family: kanit;
+}
+.btn-outline-primary{
+    color: #EB3238;
+    border-color: #EB3238;
+    transition: color 0.4s ease, border-color 0.4s ease, background-color 0.4s ease; /* Transiciones suaves */
+}
+.btn-outline-primary:hover{
+    color:#ffffff;
+    border-color: #ffffff;
+    background-color: #000000fe;
+}
+.stylish-text-neon {
+    font-size: 4rem; /* Tamaño del texto */
+    color: #ffffff; /* Color del texto (negro) */
+    font-weight: bold; /* Negrita */
+    text-shadow: 
+      0 0 5px #000000, /* Sombra blanca */
+      0 0 10px #000000, /* Sombra en color #000000 */
+      0 0 15px #000000, /* Sombra en color #000000 */
+      0 0 20px #EB3238, /* Sombra en color #EB3238 */
+      0 0 25px #EB3238, /* Sombra en color #EB3238 */
+      0 0 30px #EB3238; /* Sombra en color #EB3238 */
+    text-transform: uppercase; /* Mayúsculas */
+    margin-top: 20px; /* Margen superior */
+  }
+.form-label{
+    color: rgb(255, 255, 255);
+}
+.nav-item a{
+    color: white;
+}
+.mb-4{
+    font-family: kurale;
+}
+#btn_flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 10%;
+    right: 0px;
+    z-index: 999999;
+    background: #EB3238 ;
+    color: #000000;
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: bolder;
+    border-radius: 15px 0 0 15px;
+    padding: 20px 40px 20px 25px;
+    box-shadow: 5px 5px 10px rgb(71, 71, 71, 0.5);
+    text-decoration: none;
+}
+.principal{
+    opacity: 0.9;
+}
+.card{
+    background-color: white; 
+    float: right; 
+    margin-bottom: 20px; 
+    height: 100%;
+}
+.card img{
+    width: 30%; 
+    object-fit: cover;
+}
+.card-title{
+    font-size: 30px
+}
+.card-header p{
+    font-size: 20px;
+}
+.my-custom-button {
+    background-color: #EB3238; /* Cambia a tu color deseado */
+    color: white; /* Cambia el color del texto */
+}
